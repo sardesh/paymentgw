@@ -17,7 +17,7 @@ $("#submit").on("click", function (e) {
         data: "msg=" + payload_to_pg
     })
     .done(function (responce) {
-
+    	document.write(responce);
     });
 });
 
